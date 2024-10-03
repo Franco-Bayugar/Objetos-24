@@ -19,22 +19,7 @@ public class Habitacion {
         this.costo = costo;
     }
 
-    public boolean isOcupada() {
-        return ocupada;
-    }
-
-    public void setOcupada(boolean ocupada) {
-        this.ocupada = ocupada;
-    }
-
-    public Cliente getUnCliente() {
-        return unCliente;
-    }
-
-    public void setUnCliente(Cliente unCliente) {
-        this.unCliente = unCliente;
-    }
-    
+    // metodos
     public void cargarHabitacion(Cliente unCliente){
         this.ocupada = true;
         this.unCliente = unCliente;

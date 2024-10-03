@@ -16,17 +16,7 @@ public class Hotel {
             this.vectorHabitaciones[i] = new Habitacion();
         }
     }
-    
-    // geters y setters
 
-    public Habitacion[] getVectorHabitaciones() {
-        return vectorHabitaciones;
-    }
-
-    public void setVectorHabitaciones(Habitacion[] vectorHabitaciones) {
-        this.vectorHabitaciones = vectorHabitaciones;
-    }
-    
     // metodos
     public void cargarVectorHabitaciones(Cliente unCliente, int habitacionElegida){
         this.vectorHabitaciones[habitacionElegida].cargarHabitacion(unCliente);
